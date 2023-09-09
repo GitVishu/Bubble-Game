@@ -6,21 +6,21 @@
 html,body{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(154, 238, 154);
+    background-color: rgb(158, 238, 158);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #center{
-    height: 500px;
+    height: 70%;
     border-radius: 10px;
-    width: 800px;
+    width: 70%;
     background-color: white;
     overflow: hidden;
     /* border: 2px solid black; */
 }
 #top{
-    height: 70px;
+    height: 15%;
     width: 100%;
     color: white;
     background-color: rgb(13, 97, 13);
@@ -32,12 +32,13 @@ html,body{
 .box{
     font-weight: 900;
     height: 50px;
-    width: 150px;
+    width: 150px;                  
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+   
 }
 
 #box1, #box2 , #box3{
@@ -51,17 +52,14 @@ html,body{
     background-color: white;
 }
 #mid{
-    width: 100%;
+     width: 100%;
     height: calc(100% - 70px);
-    /* background-color: red; */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    overflow: hidden;
-}
+} 
 #bubble{
     display: flex;
     align-items: center;
@@ -70,10 +68,24 @@ html,body{
     height: 50px;
     width: 50px;
     color: white;
-    background-color: rgb(30, 196, 30);
+    background-color: rgb(41, 218, 41);
     border-radius: 50%;
 }
+
+
 #bubble:hover{
     cursor: pointer;
     background-color:  rgb(24, 151, 24);
+}
+h3{
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+@media (max-width: 600px ) {
+   
+    .box{
+        flex-direction: column;
+    }
+   
 }

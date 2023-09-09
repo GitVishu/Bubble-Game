@@ -9,7 +9,7 @@ function increaseScore(){
 function makeBubble(){
     var clutter = " "
     
-    for(var i =1 ; i<=91 ; i++){
+    for(var i =1 ; i<=96 ; i++){
         var num = Math.floor(Math.random()*10)
         clutter += `<div id="bubble">${num}</div>`
     }
@@ -23,7 +23,8 @@ function runTimer(){
             }
             else{
                 clearInterval(interval)
-                document.querySelector("#mid").innerHTML = ` <h1>SCORE : ${score}</h1> <h1> GAME OVER </h1>`
+                document.querySelector("#mid").innerHTML = ` <h1>SCORE : ${score}</h1><h1> GAME OVER </h1>`
+                document.querySelector("#mid").style.flexDirection = "column"
             }
         },1000)
     
