@@ -24,7 +24,7 @@ function runTimer(){
             else{
                 clearInterval(interval)
                 document.querySelector("#mid").innerHTML = ` <h1>SCORE : ${score}</h1><h1> GAME OVER </h1>`
-                document.querySelector("#mid").style.flexDirection = "column"
+                
             }
         },1000)
     
