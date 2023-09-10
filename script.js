@@ -40,10 +40,6 @@ document.querySelector("#mid").addEventListener("click", function(details) {
         makeBubble();
         getHit();
     }
-    else{
-        details.target.style.backgroundColor = "red"
-        window.location.reload()
-    }
 })
 
 getHit();
