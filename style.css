@@ -11,7 +11,7 @@ html,body{
     background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 
-    background-color: #83D475;
+    background-color: #efcfe3  ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@ html,body{
     height: 15%;
     width: 100%;
     color: white;
-    background-color: #237722;
+    background-color: #e27396 ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,14 +74,14 @@ html,body{
     height: 2vmax;
     width: 3vmax;
     color: white;
-    background-color: #2EB62C;
+    background-color: #ea9ab2  ;
     border-radius: 50%;
 }
 
 
 #bubble:hover{
     cursor: pointer;
-    background-color:  rgb(31, 97, 31);
+    background-color: #b3647c;
 }
 h3{
     text-align: center;
