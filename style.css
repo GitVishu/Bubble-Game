@@ -71,8 +71,8 @@ html,body{
     align-items: center;
     justify-content: center;
     font-weight: 600;
-    height: 10%;
-    width: 5%;
+    height: 2vmax;
+    width: 3vmax;
     color: white;
     background-color: #2EB62C;
     border-radius: 50%;
