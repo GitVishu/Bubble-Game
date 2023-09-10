@@ -6,7 +6,12 @@
 html,body{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(158, 238, 158);
+    /* background: #355C7D;  
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    background-color: #83D475;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +28,7 @@ html,body{
     height: 15%;
     width: 100%;
     color: white;
-    background-color: rgb(13, 97, 13);
+    background-color: #237722;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +57,7 @@ html,body{
     background-color: white;
 }
 #mid{
-     width: 100%;
+    width: 100%;
     height: calc(100% - 70px);
     display: flex;
     flex-direction: column;
@@ -66,17 +71,17 @@ html,body{
     align-items: center;
     justify-content: center;
     font-weight: 600;
-    height: 50px;
-    width: 50px;
+    height: 10%;
+    width: 5%;
     color: white;
-    background-color: rgb(45, 185, 45);
+    background-color: #2EB62C;
     border-radius: 50%;
 }
 
 
 #bubble:hover{
     cursor: pointer;
-    background-color:  rgb(24, 151, 24);
+    background-color:  rgb(31, 97, 31);
 }
 h3{
     text-align: center;
